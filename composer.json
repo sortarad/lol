@@ -1,0 +1,19 @@
+{
+    "name": "sortarad/lol",
+    "autoload": {
+        "psr-4": {
+            "Sortarad\\Lol\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Lol",
+            "description": "Lol addon"
+        },
+        "laravel": {
+            "providers": [
+                "Sortarad\\Lol\\ServiceProvider"
+            ]
+        }
+    }
+}
