@@ -1,5 +1,6 @@
 {
     "name": "sortarad/lol",
+    "description": "XKCD Comics for Statamic",
     "autoload": {
         "psr-4": {
             "Sortarad\\Lol\\": "src"
