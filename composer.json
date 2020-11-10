@@ -1,6 +1,9 @@
 {
     "name": "sortarad/lol",
     "description": "XKCD Comics for Statamic",
+    "keywords": ["statamic"],
+    "homepage": "https://github.com/sortarad/lol",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Sortarad\\Lol\\": "src"
