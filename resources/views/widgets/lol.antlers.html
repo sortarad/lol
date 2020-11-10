@@ -1,7 +1,7 @@
 <div class="card p-0">
 	{{ if comics }}
 	<div class="p-2">
-		<h2>{{ comics.title | sanitize }}</h2>
+		<h2>{{ comics.title | sanitize }} by xkcd</h2>
 	</div>
 	<div class="px-2 pb-2">
 		<img src="{{ comics.img }}" alt="{{ comics.alt | sanitize }}" />
