@@ -4,7 +4,7 @@
 		<h2>{{ comics.title | sanitize }} by xkcd</h2>
 	</div>
 	<div class="px-2 pb-2">
-		<img src="{{ comics.img }}" alt="{{ comics.alt | sanitize }}" />
+		<img class="mx-auto" src="{{ comics.img }}" alt="{{ comics.alt | sanitize }}" />
 	</div>
 	{{ /if }}
 </div>
